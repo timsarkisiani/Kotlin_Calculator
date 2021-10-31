@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/operacia"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="end"
+        android:text=""
+        android:layout_marginTop="40sp"
+        android:layout_marginRight="10sp"
+        android:textColor="#03A9F4"
+        android:textSize="35sp"
+        android:singleLine="true"/>
+
+    <TextView
+        android:id="@+id/pasuxi"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="end"
+        android:text="0"
+        android:layout_marginRight="10sp"
+        android:textColor="@color/black"
+        android:textSize="45sp"
+        android:singleLine="true"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/gasuftaveba"
+            style="@style/mtavari"
+            android:text="წაშლა" />
+
+
+        <TextView
+            android:id="@+id/plusminus"
+            style="@style/operaciebi"
+            android:text="±" />
+
+
+        <TextView
+            android:id="@+id/gayofa"
+            style="@style/operaciebi"
+            android:text="÷" />
+
+        <TextView
+            android:id="@+id/ukan"
+            style="@style/mtavari"
+            android:text="უკან" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/shvidi"
+            style="@style/ricxvebi"
+            android:text="7" />
+
+
+        <TextView
+            android:id="@+id/rva"
+            style="@style/ricxvebi"
+            android:text="8" />
+
+
+        <TextView
+            android:id="@+id/cxra"
+            style="@style/ricxvebi"
+            android:text="9" />
+
+        <TextView
+            android:id="@+id/gamravleba"
+            style="@style/operaciebi"
+            android:text="×" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/otxi"
+            style="@style/ricxvebi"
+            android:text="4" />
+
+
+        <TextView
+            android:id="@+id/xuti"
+            style="@style/ricxvebi"
+            android:text="5" />
+
+
+        <TextView
+            android:id="@+id/eqvsi"
+            style="@style/ricxvebi"
+            android:text="6" />
+
+
+        <TextView
+            android:id="@+id/gamokleba"
+            style="@style/operaciebi"
+            android:text="−" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/erti"
+            style="@style/ricxvebi"
+            android:text="1" />
+
+
+        <TextView
+            android:id="@+id/ori"
+            style="@style/ricxvebi"
+            android:text="2" />
+
+
+        <TextView
+            android:id="@+id/sami"
+            style="@style/ricxvebi"
+            android:text="3" />
+
+        <TextView
+            android:id="@+id/mimateba"
+            style="@style/operaciebi"
+            android:text="+" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/mdzime"
+            style="@style/mtavari"
+            android:text="," />
+
+
+        <TextView
+            android:id="@+id/nuli"
+            style="@style/ricxvebi"
+            android:text="0" />
+
+
+        <TextView
+            android:id="@+id/tolia"
+            style="@style/mtavari"
+            android:layout_width="104dp"
+            android:text="=" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
